@@ -36,8 +36,9 @@ jobs:
     # - name: Run test suite
     #   run: composer run-script test
 
+
 laravel-tests:
-      runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     
     steps:
     - uses: actions/checkout@v2
